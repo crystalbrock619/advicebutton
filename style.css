@@ -1,7 +1,7 @@
 body{
     background-color: #9c9c98; 
 }
-input {
+input, #result{
     border: ridge #483D8B .4rem;
     background-color: #675DA5;
     color: #1E1B2D;
@@ -9,7 +9,8 @@ input {
     height: 4.2rem;
     line-height: 2.1rem;
     font-size: 2rem;
-    margin: 25rem 40rem;
+    margin-left: 40rem;
+    margin-top: 25rem;
     transition: 1s;
 }
 input:hover{
