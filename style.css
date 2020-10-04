@@ -1,15 +1,25 @@
 body{
     background-color: #9c9c98; 
 }
-input {
-    border: ridge #483D8B .4rem;
-    background-color: #675DA5;
-    color: #1E1B2D;
-    padding: .5rem;
+input, #result{
+  background-color: #675DA5;
+  color: #1E1B2D;
+  border: ridge #483D8B .4rem;
+  padding: .5rem;
+}
+#result{
+  margin-top: 5rem;
+  width: 80vw;
+  margin-left: 10rem;
+  font-size: 1.5rem;
+}
+input{
+    width: 30vw;
     height: 4.2rem;
     line-height: 2.1rem;
     font-size: 2rem;
-    margin: 25rem 40rem;
+    margin-left: 30rem;
+    margin-top: 5rem;
     transition: 1s;
 }
 input:hover{
