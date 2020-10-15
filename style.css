@@ -30,7 +30,6 @@ body{
 .button:hover{
   padding: 1rem 1.5rem;
   font-size: 2.5rem;
-  height: 4.8rem;
   line-height: 1.8rem;
 }
 @media(max-width: 500px){
@@ -40,5 +39,6 @@ body{
 }
 .button{
   margin:1rem 5rem 0rem 5rem;
+  width: auto;
 }
 }
