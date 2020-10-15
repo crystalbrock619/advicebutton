@@ -1,7 +1,7 @@
 body{
     background-color: #9c9c98; 
 }
-#name, #result{
+#name, #result, #type, .button{
   background-color: #675DA5;
   color: #1E1B2D;
   border: ridge #483D8B .4rem;
@@ -21,18 +21,24 @@ body{
   padding: 2rem;
 }
 .button{
-    width: 30vw;
-    height: 4.2rem;
     line-height: 2.1rem;
     font-size: 2rem;
     margin-left: 30rem;
     margin-top: 5rem;
     transition: 1s;
-    color: red;
 }
 .button:hover{
   padding: 1rem 1.5rem;
   font-size: 2.5rem;
   height: 4.8rem;
   line-height: 1.8rem;
+}
+@media(max-width: 500px){
+ #result{
+   width: auto;
+   margin-left: 1rem;
+}
+.button{
+  margin:1rem 5rem 0rem 5rem;
+}
 }
